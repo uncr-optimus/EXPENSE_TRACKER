@@ -1,7 +1,7 @@
 import 'package:flutter/widgets.dart';
 import 'package:expense_tracker/models/expense.dart';
 
-class ExpensesList extends StatelessWidget{
+class ExpensesList extends StatelessWidget{   //
   @override
   ExpensesList({super.key, required this.expenses});
   final List<Expense> expenses;
